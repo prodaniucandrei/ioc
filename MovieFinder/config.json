@@ -1,0 +1,16 @@
+{
+  "IoCContainer": [
+    {
+      "from": "MovieFinder.IMovieLister",
+      "to": "MovieFinder.MovieLister",
+      "name": "",
+      "lifeCycle": "transient"
+    },
+    {
+      "from": "MovieFinder.IMovieFinder",
+      "to": "MovieFinder.MovieFinderJson",
+      "name": "",
+      "lifeCycle": "singleton"
+    }
+  ]
+}
